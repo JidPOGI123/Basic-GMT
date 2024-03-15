@@ -330,6 +330,49 @@
     justify-content:center;
   }
 }
+.offer{
+  background:grey ;
+  background:var(--light);
+  height:70vh ;
+}
+.offer__text{
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.offer__text h2{
+  font-size: 5rem;
+  font-weight: 600;
+  color: #134A8C;
+}
+.offer__text p{
+  font-weight: 600;
+}
+.offer__text a.btn{
+  font-size:1.5rem;
+  font-weight:770;
+  width:155px;
+}
+.offer__price h3{
+ color:orange;
+ font-size:3rem;
+ font-weight:600;
+}
+.offer__price h4{
+  color:blue;
+  font-size:3rem;
+}
+.offer__wrapper{
+  display:flex;
+  position:absolute;
+  transform:translateY(15rem);
+}
+
+  
+
+
+
 
   /* REPEATABLE PATTERN */
   :root{
